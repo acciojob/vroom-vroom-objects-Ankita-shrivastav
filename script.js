@@ -8,6 +8,9 @@ function SportsCar(make, model, topSpeed) {
 	Car.call(this,make,model);
 	this.topSpeed=topSpeed;
 }
+SportsCar.prototype.getTopSpeed=function(){
+	return this.topSpeed;
+}
 
 // Do not change the code below
 window.Car = Car;
